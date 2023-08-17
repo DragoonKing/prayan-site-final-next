@@ -28,7 +28,7 @@ const Cardsdata = () => {
            
             <Col lg={3} md={6} key={index} className='w-[18rem] h-[18rem]'>
               <div className="card" style={{ width: '18rem' }} id="member-box">
-                <Image src={card.imageSrc.src} width={100} height={100} className="card-img-top" alt="..."  ></Image>
+                <Image src={card.imageSrc} width={100} height={100} className="card-img-top" alt="..."  ></Image>
                 <div id="mem-card-div">
                   < h2 id="mem-box-title">{card.name}</h2>
                   <p id="mem-box-position">{card.role}</p>
