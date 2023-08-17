@@ -1,7 +1,7 @@
 'use client'
 
 import React from 'react'
-import Image from 'react-bootstrap/Image'
+import Image from "next/image"
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Tab from 'react-bootstrap/Tab';
